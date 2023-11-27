@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 4000
 const cors = require('cors')
+const myModule = require('/opt/render/project/src/index.js');
 
 app.use(cors());
 app.use(express.json());
